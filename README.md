@@ -13,7 +13,7 @@ I design and run the infrastructure other people's uptime depends on — multi-t
 
 ## Featured Projects
 
-### 🏦 ParseBankers (Yoga Mindset)
+### 🏦 ParseBankers
 Bank statement reconciliation engine — matches EJ (ATM switch logs) against RC (settlement/cash) records. Started as a web app, ported to a native Windows desktop tool (**Go + Wails + WebView2**, ~50MB vs 150MB+ for an Electron equivalent) for offline single-user use. Parser validated against real production data: **990 EJ transactions, 98.6% exact match against 717 RC records**. CI/CD via **GitHub Actions** builds signed Windows installers (NSIS) on every push/tag.
 `Go` `Wails` `React` `DuckDB` `GitHub Actions`
 
