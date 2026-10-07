@@ -29,6 +29,10 @@ Designed PCC (Per-Connection Classifier) + policy routing across 3 concurrent IS
 A self-installing systemd service that watches every `root`/`sudo`/`su` command in real time via a bash prompt hook + `journald`, and pushes it straight to Telegram — so privileged access on a box is never silent. Includes rate-limiting and a periodic heartbeat so "no alerts" never gets confused with "the monitor died."
 `Bash` `systemd` `journald` `Telegram Bot API`
 
+### 🖥️ OpenVPN Management Dashboard
+Full-stack platform for centrally managing distributed OpenVPN infrastructure — real-time monitoring (CPU/memory/bandwidth) of multiple geographically distributed nodes via a lightweight Python agent, VPN profile lifecycle (create/distribute/revoke with AES encryption), and live dashboards over WebSocket. Hardened with Google OAuth + 2FA (TOTP) + reCAPTCHA, plus automatic IP whitelisting tied directly to the node registry. Full backup/restore, Telegram reporting, Dockerized deployment.
+`Next.js` `PostgreSQL` `Prisma` `Python` `Docker` `WebSocket`
+
 ## Tech Stack
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white)
@@ -37,6 +41,10 @@ A self-installing systemd service that watches every `root`/`sudo`/`su` command 
 ![SQLite](https://img.shields.io/badge/-SQLite-07405E?logo=sqlite&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?logo=cloudflare&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-FF9900?logo=amazonaws&logoColor=white)
+![AWS CloudFront](https://img.shields.io/badge/-CloudFront-FF9900?logo=amazoncloudfront&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 ![MikroTik](https://img.shields.io/badge/-MikroTik%20RouterOS-293239?logo=mikrotik&logoColor=white)
